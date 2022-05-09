@@ -1,0 +1,868 @@
+@media screen and (max-width:1348px){
+
+}
+
+
+/* Laptopn screen  */
+@media only screen and (max-width: 1366px) and (min-width: 992px){
+    #learn_more {
+        min-height: 340px;
+    }
+    .learn_more_img img {
+        position: absolute;
+        left: 20px;
+        top: -76px;
+        width: 100%;
+    }
+
+.heading_1{
+font-size: 30px !important;
+}
+.heading_2{
+font-size: 26px !important;
+}
+.heading_3{
+font-size: 14px !important;
+}
+.heading_4{
+font-size: 18px !important;    
+}
+h5.custom_heading{
+    font-size: 20px !important;
+
+}
+p{
+    font-size: 14px !important;
+}
+
+a{
+    font-size: 14px !important;
+}
+
+
+
+
+.hero_left h2{
+    margin-bottom: 32px;
+}
+
+.hero_left p{
+    margin-bottom: 32px;
+}
+
+
+/* About us  */
+#about_us p {
+    margin-bottom: 46px !important;
+}
+
+
+#newsletter input {
+    padding: 17px 50px;
+}
+
+.subscribe_btn {
+    padding: 11px 15px;
+    font-size: 18px;
+}
+#newsletter button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+
+
+/* Footer  */
+#footer .logo_social img {
+    margin-bottom: 17px;
+}
+h4.footer_heading {
+    margin-bottom: 19px;
+}
+#footer .social_btns {
+    margin-top: 30PX;
+}
+
+#footer .social_btns svg{
+    height: 35px;
+    width: 35px;
+}
+#footer .logo_social a {
+    margin-right: 15px;
+}
+
+/* case_study page  */
+h1.big_font{
+    font-size: 36px;
+}
+
+.isotop .button-group .button{
+    font-size: 18px;
+}
+
+}
+
+
+@media screen and (max-width:992px){
+    #preloader img{
+        width: 225px;
+        height: auto;
+    }
+    .gap{
+        height: 30px;
+    }
+    .heading_1{
+        font-size: 24px !important;
+        }
+        .heading_2{
+        font-size: 20px !important;
+        }
+        .heading_3{
+        font-size: 12px !important;
+        }
+        .heading_4{
+        font-size: 16px !important;    
+        }
+        h5.custom_heading{
+            font-size: 16px !important;
+        
+        }
+        p{
+            font-size: 14px !important;
+        }
+        a{
+            font-size: 12px !important;
+        }
+
+        .hero_left{
+            text-align: center;
+            max-width: none !important;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .hero_left h2{
+            margin-bottom: 28px;
+        }
+
+        .hero_left p{
+            margin-bottom: 30px;
+        }
+        
+
+        #hero .main_img {
+            left: calc(37% - 55px);
+        }
+        .banner_img_group .tech{
+            display: none;
+        }
+
+
+        /* Service  */
+
+        #services .col-12:nth-of-type(1){
+            border-right: 1px dashed #CFCFCF;
+
+        }
+
+        #services .col-12:nth-of-type(2){
+            border-right: 1px dashed #CFCFCF;
+
+        }
+        #services .col-12:nth-of-type(4){
+            border-right: 1px dashed #CFCFCF;
+            border-left: 1px dashed #CFCFCF !important;
+            border-left: none;
+            border-bottom: none;
+
+
+        }
+        #services .col-12:nth-of-type(6){
+            border-right: 1px dashed #CFCFCF;
+
+        }
+
+
+        /* Process  */
+        #process .process_icons {
+            height: 110px;
+            width: 110px;
+        }
+
+        #process .first_flow {
+            right: -80px;
+        }
+        #process .last_flow {
+            right: -87px;
+        }
+        #process svg{
+            width: 100px;
+        }
+
+        #process  .second_process_elements {
+            max-width: 163px;
+            width: 100%;
+            margin: auto;
+            position: relative;
+            float: right;
+        }
+
+
+        /* About Us  */
+        .about_us_images {
+            padding: 0px 0px;
+        }
+
+        #about_us .heading_2 {
+            margin-bottom: 30px;
+        }
+
+        #about_us p {
+            margin-bottom: 24px !important;
+        }
+
+        /* Learn more  */
+
+        #learn_more{
+            min-height: 500px;
+        }
+     
+        .learn_more_img img {
+            position: inherit;
+            left: 27%;
+            transform: translate(-49%, -1%);
+            width: 350px;
+            top: -30px;
+        }
+        #learn_more .heading_1 {
+            margin-bottom: 16px;
+        }
+
+        .learn_text{
+            margin-top: -100px;
+
+        }
+
+        /* Client say */
+        #client_say .comment_grid{
+            margin-left:55px;
+            margin-right: 35px;
+        }
+        #client_say .comment{
+            width: 100% ;
+            margin-top:55px;
+        }
+
+        #client_say .comment_slider .slick-list.draggable{
+            margin-left: 0px;
+          }
+
+        #client_say .comment_text {
+            padding-bottom: 12px;
+            padding-top: 32px;
+        }
+        #client_say .comment img{
+            width: 48px;
+            height: 45px;
+        }
+        #client_say .comment img {
+            top: -12px;
+            left: -12px;
+        }
+
+        #client_say .comment_text p {
+            max-width: 100%;
+            color:  #838383;
+            
+        }
+
+
+        
+#client_say .comment_slider_elements:nth-of-type(odd) {
+    padding-left: 0px;
+  }
+  
+  #client_say .comment_slider_elements:nth-of-type(even) {
+    padding-right: 0px;
+  }
+  
+  
+  /* News letter  */
+  
+#newsletter input {
+    padding: 17px 50px;
+}
+
+.subscribe_btn {
+    padding: 11px 15px;
+    font-size: 18px;
+}
+#newsletter button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+#newsletter input::placeholder{
+    font-size: 16px;
+  }
+
+  /* Footer  */
+#footer .logo_social img {
+    margin-bottom: 17px;
+}
+h4.footer_heading {
+    margin-bottom: 19px;
+}
+#footer .social_btns {
+    margin-top: 30PX;
+}
+
+
+#footer .social_btns svg{
+    height: 35px;
+    width: 35px;
+}
+
+#footer .logo_social a {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+
+}
+
+/* About page  */
+.all_missions .missions:nth-of-type(2) .missions_left {
+    padding-left: 0px;
+}
+
+/* Portfolio  */
+.top_page_gap {
+    height: 40px;
+}
+.heading_and_filter .filter select {
+    max-width: 412px;
+    width: 90%;
+    padding: 8px 26px;
+}
+
+    /* about_portfolio section  */
+    .about_portfolio .info {
+        max-width: 396px;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        box-shadow: 0px 0px 5px rgb(8 91 216 / 7%);
+        border-radius: 0px 0px 5px 5px;
+        padding: 43px 17px;
+        margin-bottom: 40px;
+    }
+
+
+    /* case_study page  */
+h1.big_font{
+    font-size: 30px;
+}
+
+.isotop .button-group .button{
+    font-size: 16px;
+}
+
+.isotop .button_and_heading {
+    display: initial;
+    text-align: center;
+
+}
+.isotop .button-group{
+    margin-bottom: 30px;
+}
+
+}
+
+@media screen and (max-width:768px){
+
+
+    /* Search  */
+    #search_modal .search-wrapper.active .input-holder{
+        width: 320px;
+    }
+    #search_modal .search-wrapper .nav_search_close {
+        top: 50%;
+        width: 25px;
+        left: 50%;
+        transform: translate(10px, 10px);
+        margin-top: 50px;
+
+    }
+
+    .navbar-brand img{
+        height: 34px;
+    }
+    #hero .main_img {
+        left: calc(37% - 109px);
+    }
+    .blue_btn{
+        padding: 10px 16.5px !important;
+    }
+    .border_btn{
+        padding: 9px 13.5px;
+    }
+
+    /* Service */
+    #services .col-12:nth-of-type(5){
+        border-right: 1px dashed #CFCFCF;
+
+    }
+
+        /* #process  */
+        #process svg{
+            width: 125px;
+        }
+
+        #process .first_flow {
+            right: -195px;
+            top: 88px;
+            transform: rotate(40deg);
+        }
+        #process .col-lg-4:nth-of-type(2) {
+            margin-top: 0px;
+        }
+
+        #process .last_flow {
+            right: 10px;
+            top: 351px;
+            transform: rotate(-42deg);
+        }
+
+        #process .process_icons img {
+            height: 36px;
+            width: 36px;
+        }
+
+
+        /* Counter  */
+        #counter .counter_text span:nth-of-type(2) {
+            font-size: 12px;
+        }
+        #counter {
+            padding: 40px 0px;
+        }
+
+
+        /* #choose */
+
+        #choose .col-sm-12:nth-of-type(1) .choose_elements,
+        #choose .col-sm-12:nth-of-type(2) .choose_elements
+            {
+            margin-bottom: 20px;
+
+            }
+
+            #choose  .choose_elements,
+            #choose  .choose_elements
+                {
+                margin-bottom: 20px;
+    
+                }
+
+                #choose .choose_text h4 {
+                    margin-bottom: 10px;
+                }
+
+                #choose .choose_text {
+                    margin-left:14px;
+
+                }
+                #choose .choose_icons img{
+                    height: 20px;
+                    width: 23px;
+                }
+
+
+                    /* #About  */
+    #about_us p {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        line-height: 19.52px;
+        text-align: justify;
+    }
+
+
+    /* Learn more  */
+    #learn_more{
+        margin-top: 50px;
+        min-height: 450px;
+        text-align: center;
+    }
+
+    .learn_text {
+        margin-top: -130px;
+    }
+    .learn_more_img img {
+        left: 0%;
+        top: -90px;
+    }
+
+    #learn_more .learn_btn{
+        padding: 8px 16px;
+
+    }
+
+    /* Client say  */
+    #client_say .slick-dots {
+        margin: auto;
+        margin-top: 22px;
+    }
+    #client_say .slick-dots button {
+        height: 8px;
+        width: 8px;
+    }
+
+
+
+
+
+    /* Footer  */
+    #footer .logo_social{
+        text-align: center;
+    }
+#footer .logo_social img {
+    margin-bottom: 30px;
+}
+h4.footer_heading {
+    margin-bottom: 19px;
+}
+
+/* ABout page  */
+.missions_left h3.heading_3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+p.mission_details{
+    text-align: center;
+
+}
+
+.missions .mission_number img{
+    margin-right: 0px;
+}
+.mission_stats{
+    padding-left: 0px;
+    max-width: inherit;
+}
+.missions .mission_number img{
+    height: 20px;
+    width: 20px;
+}
+.mission_no h3{
+    font-size: 14px;
+}
+
+/* Portfolio */
+.portfolio{
+    margin-bottom: 30px;
+}
+
+.portfolio_list h5 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.portfolio_list .portfolio:nth-of-type(3){
+    margin-bottom: 30px;
+}
+.heading_and_filter h2{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.heading_and_filter .filter {
+    justify-content: center;
+}
+.pagination{
+    margin-bottom: 40px;
+}
+
+
+/* About us page responsive  */
+.map{
+    min-height: 200px;
+    background-position: bottom;
+}
+.about_us_hero h2{
+    max-width: 329px;
+    width: 100%;
+}
+.map .stats{
+    text-align: center;
+}
+.map .clients span:nth-of-type(2){
+    display: inline-block;
+}
+
+/* Achivement section  */
+.achivements{
+    background: url(../images/about_us/mob.svg.svg);
+    background-repeat: no-repeat;
+    padding: 60px 0px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* Mission vission section  */
+.missoin_header {
+    margin-bottom: 30px;
+}
+
+.missoin_header p{
+    max-width: 346px;
+    width: 100%;
+    margin: auto;
+}
+
+p.mission_details{
+    max-width: 305px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    /* Business section  */
+    .business .accordion-button{
+        font-size: 14px;
+    }
+
+    /* get started section  */
+    .get_started{
+        padding-top: 124px;
+        padding-bottom: 64px;
+        background-image: url(../images/about_us/mob_bg_2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: center;
+    }
+
+
+    /* Case study and portfolio details page  */
+    .portfolio_bg, .case_portfolio_bg{
+        min-height: 150px;
+    }
+
+
+
+    .result_numbers{
+        text-align: center;
+    }
+    .results .result_numbers p{
+        margin-bottom: 30px;
+    }
+    .portfolio_desc h5 {
+        margin-bottom: 16px;
+    }
+
+    .project_showcase h2 {
+        margin-bottom: 30px;
+
+    }
+    .project  {
+    padding: 0px 5px;
+}
+.projects_slider h3{
+    font-size: 16px !important;
+}
+
+
+   /* ISotop  */
+   .isotop .button-group .button {
+    font-size: 12px;
+    margin: 11px 0px;
+}
+.button-group.filters-button-group {
+    max-width: 290px;
+    margin: auto;
+}
+
+h1.big_font{
+    font-size: 24px;
+}
+.case_banner_left{
+    text-align: center;
+}
+.case_banner img{
+    width: 70%;
+}
+.isotop{
+    margin: 45px 0px;
+}
+.case_banner_left .theme_fat_btn{
+    padding:10px 25px;
+}
+.case_banner_left p{
+    margin-bottom: 27px;
+}
+
+.contact_right {
+    width: 100%;
+    margin-left: initial;
+}
+button.theme_fat_btn{
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+.contact_us form input, .contact_us form textarea{
+    padding: 10px 40px
+}
+.contact_us form svg {
+    top: 10px;
+    left: 8px;
+
+}
+}
+
+
+
+@media screen and (max-width:768px){
+
+            /* Banner  */
+
+            #hero .banner_img_group {
+                min-height: 320px;
+            }
+        /* Search  */
+        #search_modal .search-wrapper.active .input-holder{
+            width: 245px;
+        }
+        #search_modal .search-wrapper .nav_search_close {
+            top: -30px;
+            width: 25px;
+            left: 50%;
+            transform: translate(10px, 10px);
+            margin-top: 50px;
+    
+        }
+        #search_modal .search-wrapper.active .nav_search_close {
+            top: 60%;
+            left: 40%;
+        }
+
+
+
+    #companies {
+        min-height: 80px;
+        background: #F9F9F9;
+        padding: 0.5px 0px;
+    }
+
+
+
+    #counter .counter_img {
+        margin-right: 0px;
+    }
+
+    #counter .counter_elements{
+        display: inline-block !important;
+        width: 100%;
+
+    }
+
+    #counter .counter_elements{
+        display: inline-block !important;
+    }
+
+    #counter .col-4{
+        width: 85px;
+        margin: auto;
+    }
+
+
+    /* Service  */
+    #services .service {
+        padding: 15px 0px;
+    }
+
+    #services .service_col:hover .service_icon{
+        transform: scale(1);
+      }
+      
+    /* Process  */
+    
+    #process .first_flow {
+        right: -158px;
+    }
+
+
+    /* Learn more  */
+    .learn_more_img img {
+        position: inherit;
+        left: -3%;
+        transform: translate(-50%, 0%);
+        width: 80%;
+    }
+
+
+    #client_say .comment_grid {
+        margin-left: 8px;
+        margin-right: 2px;
+    }
+
+    #client_say .comment_text {
+        padding-bottom: 5px;
+        padding-top: 12px;
+    }
+
+    #client_say .comment {
+        width: 100%;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    #client_say .comment{
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+    /* Newsletter */
+
+    /* #newsletter {
+        padding: 50px 15px;
+    } */
+
+
+    #newsletter input {
+        padding: 8px 20px;
+        margin-top: 45px;
+
+    }
+
+    .subscribe_btn {
+        padding: 11px 10px;
+        font-size: 10px;
+    }
+    #newsletter button {
+        position: absolute;
+        top: 1px;
+        right: 2px;
+    }
+    #newsletter input::placeholder{
+        font-size: 12px;
+      }
+
+      span.log_in_text{
+        display: none;
+    }
+
+
+    /* Footer  */
+    #footer .copy_write_text {
+        font-size: 10px;
+        padding-bottom: 14px;
+    }
+
+ 
+
+}
+
+
+
+
+
