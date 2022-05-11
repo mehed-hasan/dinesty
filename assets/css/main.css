@@ -640,6 +640,12 @@ margin-bottom: 12px;
 
       }
 
+      #footer{
+        background: rgba(37, 48, 108, 0.05);
+        padding-top: 60px;
+        padding-bottom: 27px;
+      }
+
 
       #footer h6{
         font-style: normal;
@@ -759,4 +765,201 @@ margin-bottom: 12px;
         margin: auto;
       }
 
-      
+      .secondary_heading{
+        max-width: 562px;
+        width: 100%;
+        margin: auto;
+        margin-top: 140px;
+        margin-bottom: 62px;
+      }
+
+      .secondary_heading h1{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+/* logo-color */
+
+color: #25306C;
+      }
+
+      .secondary_heading p{
+        
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+/* logo-color */
+
+color: #25306C;
+
+opacity: 0.6;
+      }
+
+      #contact_form h1{
+        margin-bottom: 16px;
+      }
+
+      .contact_el{
+        max-width:1061px;
+        width: 100%;
+        margin: auto;
+        background: #F4F6FC;
+        border-radius: 12px;
+        min-height: 640px;
+        display: flex;
+        align-items: center;
+      }
+
+      #contact_form form{
+        max-width:907px;
+        width: 100%;
+        margin: auto
+      }
+
+      #contact_form label{
+        margin-bottom: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        color: #25306C;
+
+      }
+
+      #contact_form input{
+        margin-bottom: 24px;
+        background: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+border-radius: 8px;
+padding:18px 32px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #25306C;
+opacity: 0.4;
+      }
+
+      #contact_form textarea{
+        background: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #25306C;
+        opacity: 0.4;
+        margin-bottom: 32px;
+      }
+
+      #contact_form button{
+        border-radius: 12px;
+        padding-left: 51px;
+        padding-right: 51px;
+      }
+
+
+
+
+      #privacy h1{
+        margin-bottom: 16px;
+      }
+
+      #privacy .nav{
+        display: inline-block !important;
+      }
+
+
+
+.privacy_el{
+        max-width:842px;
+        width: 100%;
+        margin: 0px;
+        align-items: center;
+}
+
+.privacy_el h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* identical to box height, or 147% */
+
+
+  /* logo-color */
+
+  color: #25306C;
+
+}
+.para{
+  margin-bottom: 40px;
+}
+
+.para h2{
+  margin-bottom: 32px;
+}
+
+.para p{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* logo-color */
+
+color: #25306C;
+
+opacity: 0.6;
+}
+
+.first_content{
+  margin-top: 140px;
+}
+
+
+#privacy .nav-item button{
+  min-width: 281px;
+  width: 100%;
+  text-align: left;
+  padding-left: 40px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: #25306C;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 18px;
+}
+
+
+#privacy .nav-item button.active{
+  min-width: 281px;
+  width: 100%;
+  text-align: left;
+  padding-left: 40px;
+  background: #25306C;
+  border-radius: 8px;
+  color: white;
+}
