@@ -48,12 +48,14 @@
         overflow: hidden;
     }
     .about_overlay{
-        display: none;
+        /* display: none; */
     }
     #about .about_topics h3{
         font-size: 30px;
         line-height: 50px;
     }
+
+    
 
     /* Product page */
     .product_page .products_img {
@@ -133,6 +135,10 @@
             line-height: 30px;
         }
 
+        #our_clients .client_slider img{
+            height:50px;
+        }
+
         /* Product page */
         .product_page .products_img {
             min-height: 362px !important;
@@ -183,6 +189,33 @@
 
 
     /* Product section  */
+
+    #products .products_left p{
+        margin-bottom: 24px;
+    }
+
+    .product_info{
+        margin-bottom: 25px;
+    }
+    .filter_group{
+        margin-bottom: 16px !important;
+    }
+
+    .btn-light{
+        background: rgba(137, 207, 240, 0.5);
+        font-weight: bold;
+      }
+
+
+    .btn-know{
+        margin-bottom: 40px;
+    }
+    .price{
+        margin-bottom: 10px;
+    }
+    .price h3{
+        font-size: 14px !important;
+    }
     .products_house {
         height: auto;
         overflow: unset;
@@ -201,6 +234,10 @@
     }
 
     /* ABout section  */
+
+    #about h1{
+        margin-bottom: 10px;
+    }
     .about_topics{
         margin-bottom: 20px;
     }
@@ -223,7 +260,24 @@
     #alkaline_info2 .nctb{
         text-align: center;
     }
+    #alkaline_info2 h1{
+        line-height: 100%;
+    font-size: 20px !important;
+    margin-bottom: 30px;
+    }
+    #alkaline_info2 .info_content .info_img img{
+        height: 300px;
+    }
 
+
+    #our_clients h1{
+        margin-bottom: 10px;
+    }
+
+    #our_clients .client_slider{
+        padding: 18px 0px;
+
+      }
 
     /* Contact page  */
 
@@ -270,7 +324,7 @@
       }
 
       .right_nav{
-        margin-left: 27px;
+        margin-left: 14px;
         margin-bottom: 15px;
       }
 
@@ -282,8 +336,44 @@
           min-height: 330px !important;
       }
       #alkaline_info h1{
-          line-height: 40px;
+          line-height: 100%;
+          font-size: 20px !important;
+          margin-bottom: 10px;
+
       }
+
+      #contact_form button {
+        border-radius: 12px;
+        padding: 12px 51px;
+        width: 100%;
+    }
+
+    #video .video_heading{
+        margin-bottom: 20px;
+    }
+
+    .video_imbedor iframe {
+        border-radius: 12px;
+    }
+
+    .banner_img{
+        min-height: 300px;
+    }
+    .banner_content{
+        padding-top: 70px;
+    }
+
+    .modal-content img{
+        width: 100%;
+
+    }
+    .modal-content {
+        padding: 10px;
+    }
+    .modal-body .product_info {
+        padding: 15px 5px;
+        margin-bottom: 0px;
+    }
 }
 
 

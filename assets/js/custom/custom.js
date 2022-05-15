@@ -30,3 +30,10 @@ $(window).on('load', function () {
             $(".navbar").addClass("change_nav");
         }
     }
+
+
+    $(".filter_btn").click(function(){
+        $(this).parent().find(".filter_btn_active").attr("class","filter_btn");
+        $(this).attr("class","filter_btn_active");
+
+    });

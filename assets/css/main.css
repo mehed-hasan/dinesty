@@ -81,6 +81,15 @@ p{
     border: none;
 }
 
+.navbar-toggler:focus{
+  box-shadow: none !important;
+  padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin: 0px 15.5px !important;
+}
+
 
   .left_bar{
     position: absolute;
@@ -120,6 +129,8 @@ p{
   /* Navbar css  */
   .navbar{
     transition: .7s;
+    padding: 11.5px 0px;
+    
   }
   .change_nav{
     background-color: transparent !important;
@@ -144,6 +155,7 @@ p{
 
   .btn-primary{
     background: #25306C;
+    border-radius: 12px;
   }
 
   .btn-light{
@@ -267,7 +279,6 @@ margin-bottom: 32px;
   }
 
   #hero .slide_btn{
-    background-color: red;
     justify-content: center;
     align-items: center;
     width: fit-content;
@@ -306,7 +317,7 @@ margin-bottom: 32px;
   }
 
   .bounce {
-    animation: bounce 2s infinite;
+    animation: bounce 4s infinite;
   }
 
   @keyframes bounce {
@@ -572,6 +583,14 @@ margin-bottom: 12px;
       #about h1{
         margin-bottom: 40px;
         color: #89CFF0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 68px;
+        text-align: center;
+        color: #89CFF0;
+        opacity: 0.8;
       }
 
       #about .about_topics{
@@ -657,12 +676,15 @@ margin-bottom: 12px;
         color: #89CFF0;
       }
 
+      #our_clients .client_slider img{
+        margin: auto;
+        height: 65px;
+      }
+
       #our_clients .client_slider{
-        display: flex;
-        align-items: center;
-        height: 126px;
         border-top: 1px solid #e9eaef;
         border-bottom: 1px solid #e9eaef;
+        padding: 25px 0px;
 
       }
 
@@ -754,6 +776,7 @@ margin-bottom: 12px;
         margin: auto;
         text-align: center;
         color: white;
+        padding: 0px 15px;
       }
 
       #banner button{
@@ -785,6 +808,7 @@ margin-bottom: 12px;
         color: #25306C;
         opacity: 0.6;
         text-decoration: none;
+        cursor: pointer;
       }
 
       .filter_group a {
@@ -794,6 +818,14 @@ margin-bottom: 12px;
       .filter_group a {
         margin-bottom: 16px;
         display: inline-flex;
+        transition: .5s;
+      }
+      .filter_group input{
+        appearance: none;
+      }
+
+      .filter_group a:hover{
+        background: rgba(137, 207, 240, 0.5);
       }
 
 
@@ -912,6 +944,7 @@ opacity: 0.4;
         border-radius: 12px;
         padding-left: 51px;
         padding-right: 51px;
+        padding: 10px 51px;
       }
 
 
@@ -1098,14 +1131,13 @@ opacity: 0.6;
 #alkaline_info2 h1{
   max-width: 1168px;
   margin: auto;
-  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 68px;
-  /* or 106% */
   text-align: center;
-  color: rgba(129, 163, 198, 1);
-  margin-bottom: 41px;
+  color: #89CFF0;
 }
 
 #alkaline_info2  .info_content .info_img img{
@@ -1183,7 +1215,7 @@ opacity: 0.6;
   font-size: 48px;
   line-height: 53px;
   text-align: center;
-  color: #81A3C6;
+  color: #89CFF0;
 
 }
 
