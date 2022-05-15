@@ -454,6 +454,11 @@ margin-bottom: 12px;
 
       }
 
+      .btn-secondary:hover{
+          background: rgba(137, 207, 240, 0.5);
+          font-weight: bold;
+      }
+
       .quick_view{
         background-color: #8e9fc9;
         text-align: center;
@@ -463,7 +468,7 @@ margin-bottom: 12px;
         position: absolute;
         bottom: -50px;
         width: 100%;
-        transition: 1s;
+        transition: .5s;
         text-decoration: none;
         color: white !important;
 
