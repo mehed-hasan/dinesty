@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="assets/css/comps.css" rel="stylesheet" type="text/css">
+
+      <link href="assets/css/media_query.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="assets/plugins/slick/slick.1.8.1.css" type="text/css" />
+
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+      <title>City Mart | Home  </title>
+   </head>
+   
+   <body> 
+    <main class="container" id="main">
+      <!-- preloader section started   -->
+      <section id="preloader" >
+        <div class="loading loading01">
+          <span>CITY</span>
+          <span>M</span>
+          <span>A</span>
+          <span>R</span>
+          <span>T</span>
+        </div>
+      </section>
+
+      <div style="max-width:838px;" class="product ">
+        <div class="row ">
+            <div class="col-5">
+                <img class="img-fluid" src="assets/images/products/p1.jpg" alt="">
+            </div>
+            <div class="col-7">
+                <div class="product_info">
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    <p class="product_details">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas cursus id sit cras sodales ullamcorper fringilla. Lacus tellus cras venenatis euismod in magna. A elementum posuere rhoncus integer adipiscing turpis sed. Sed non, in commodo volutpat laoreet id posuere eget. Et luctus pharetra leo fringilla tempor gravida ultricies eget.
+                    </p>
+
+                    <a class="read_more" href="">Read More</a>
+
+                    <div class="uploaded_date">
+                        <span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" fill="white"/>
+                                <path d="M17.3333 5.6665H5.66667C4.74619 5.6665 4 6.4127 4 7.33317V18.9998C4 19.9203 4.74619 20.6665 5.66667 20.6665H17.3333C18.2538 20.6665 19 19.9203 19 18.9998V7.33317C19 6.4127 18.2538 5.6665 17.3333 5.6665Z" stroke="#B5B6C2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.8335 4V7.33333" stroke="#B5B6C2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.1665 4V7.33333" stroke="#B5B6C2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4 10.6665H19" stroke="#B5B6C2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        sep 21, 2020</span>
+                        <span>3 minutes to read</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div style="background-image:url(assets/images/products/cats.jpg);" class="cat_thumb">
+        <div class="cat_overlay"></div>
+        <h4 class="cat_heading">Food & Beverage</h4>
+      </div>
+
+    <style>
+
+
+.cat_thumb{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 200px;
+    max-width: 200px;
+    width: 100%;
+    background-position:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: center;
+    border-radius: 10px;
+}
+.cat_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(257.57deg, #FEE7CD 0%, #FCC6AF 48.75%, #FCBAA2 100%);
+    opacity: 0.5;
+}
+.cat_thumb h4.cat_heading{
+    z-index: 2;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+        /* Product comps has started */
+        .product{
+            width: 100%;
+        }
+        .product .row{
+            align-items: center;
+        }
+        .product img{
+            object-fit: cover;
+            width: 100%;
+        }
+        .product h3{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            color: #5C5D78;
+        }
+
+        .product p.product_details{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #B5B6C2;
+        }
+
+        .product a.read_more{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            color: #5C5D78;
+        }
+        .product .uploaded_date{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 254px;
+            width: 100%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            /* identical to box height, or 167% */
+
+            display: flex;
+            align-items: center;
+            color: #B5B6C2;
+            margin-top: 72px;
+
+        }
+        /* Product comps has ended */
+
+    
+        
+    </style>
+    <!-- preloader section ended   -->
+   </main>
+
+      <!-- Core Js  -->
+
+      <script src="assets/js/core/jquery-3.6.0.js" type="text/javascript"></script>
+      <script src="assets/js/core/popper.min.js" type="text/javascript" ></script>
+      <script src="assets/js/core/bootstrap.min.js" type="text/javascript" ></script>
+      <!-- Plugin Js  -->
+      <script src="assets/plugins/slick/slick.1.8.1.js" type="text/javascript"></script>
+      <script src="assets/js/custom/custom.js" type="text/javascript"></script>
+      </script>
+
+
+
+   </body>
+</html>
+
+<style> 
+
+</style>
+
