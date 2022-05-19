@@ -7,7 +7,7 @@
       <!-- Bootstrap CSS -->
       <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
       <link href="../assets/css/common.css" rel="stylesheet" type="text/css">
-
+      <link href="../assets/css/checkout.css" rel="stylesheet" type="text/css">
 
       <link href="../assets/css/media_query.css" rel="stylesheet" type="text/css">
       <!-- <link rel="stylesheet" href="../assets/plugins/aos/aos-2.3.1.css" type="text/css"> -->
@@ -45,6 +45,7 @@
         </div>
     </section>
     <!-- preloader section ended   -->
+
       <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container-fluid">
@@ -86,7 +87,86 @@
         </nav>
       </section>
 
+    
+   <section id="checkout" class="first_content">
+    <div class="container">
+        <div class="form_and_img">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form class="checkout_form" action="/" method="post">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <label for="">Name</label>
+                                <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="">Email</label>
+                                <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
+                            </div>
 
+                            <div class="col-12 ">
+                                <label for="">Subject</label>
+                                <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
+                            </div>
+
+                            <div class="col-12 col-sm-6">
+                              <label for="">Name</label>
+                              <select class="form-control" name="" id="">
+                                <option value="">Test 1</option>
+                                <option value="">Test 1</option>
+
+                              </select>
+                          </div>
+                          <div class="col-12 col-sm-6">
+                            <label for="">Name</label>
+                            <select class="form-control" name="" id="">
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.6">
+                                <path d="M19.5 9.29639L12 16.7964L4.5 9.29639" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                </svg>
+                                
+                              <option value="">Test 1</option>
+                              <option value="">Test 1</option>
+
+                            </select>
+                          </div>
+
+                          <div class="col-12 ">
+                            <label for="">Postal Code</label>
+                            <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
+                        </div>
+                        </div>
+        
+        
+                        <button class="btn btn-primary long_button"  type="submit">Next</button>
+                    </form>
+                </div>
+                <div class="col-12 col-md-4 offset-1">
+                    <div class="product_img carted_product">
+                        <img class="img-fluid" src="../assets/images/products/Frame 89.svg" alt="">
+                    </div>
+
+                    <h3 class="title">Sakura Drinking Water </h3>
+                    <a class="filter_btn_active">500mL</a>
+
+                    <div class="quantity">
+                      <label for="">Quantity:</label>
+                      <div class="btn-group counter_btn" role="group" aria-label="Basic outlined example" style="display: flex;">
+                        <button type="button" class="btn  add_btn">+</button>
+                        <input type="number" disabled="" class="text-center" value="1">
+                        <button type="button" class="btn remove_btn"> - </button>
+                     </div>
+                    </div>
+
+                    <div class="quantity_price">
+                      <small>BDT</small> <span>100.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
 
      <section id="footer">
         <div class="container">
@@ -148,6 +228,46 @@
       </script>
 
 
+      <script>
+
+
+      
+
+    
+        // counter btn script
+        $initial_price = $(".quantity_price span").text();
+        $(".add_btn").click(function(){
+            $current_val = parseInt($(this).parent().parent().parent().find("input").val());
+            $update_val = $current_val + 1;
+            $(this).parent().parent().parent().find("input").val($update_val);
+
+          calculate_price($update_val);
+        });
+    
+        $(".remove_btn").click(function(){
+            $current_val = parseInt($(this).parent().parent().parent().find("input").val());
+
+            $update_val = $current_val - 1;
+            $(this).parent().parent().parent().find("input").val($update_val);
+    
+            if($update_val < 1){
+              $(this).parent().parent().parent().find("input").val(1);
+              $(".quantity_price span").text($initial_price+".00");
+
+            }else{
+              calculate_price($update_val);
+            }
+            
+        });
+
+        function calculate_price($updated_val){
+          
+          $initial_price = parseInt($initial_price);
+          $total_price = $initial_price * $updated_val;
+          $(".quantity_price span").text($total_price+".00");
+        }
+    
+          </script>
    </body>
 </html>
 

@@ -1,0 +1,40 @@
+#payment_process{
+    margin-bottom: 332px;
+}
+#payment_process .process_details{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13.95px;
+line-height: 23px;
+/* or 167% */
+text-align: center;
+/* logo-color */
+color: #25306C;
+opacity: 0.6;
+max-width: 424px;
+width: 100%;
+margin: auto;
+margin-bottom: 32px;
+}
+
+.payment_card{
+    background: #EFF0F7;
+    border: 1px solid rgba(37, 48, 108, 0.4);
+    border-radius: 12px;
+    display: flex;
+    padding: 16px;
+    max-width: 529px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.payment_card input{
+    margin-top: 5px;
+    margin-right: 10px;
+    accent-color: #25306C;
+}
+.payment_info p{
+    max-width: 137px;
+    width: 100%;
+}

@@ -1,0 +1,54 @@
+.message_el{
+    text-align: center;
+    max-width: 454px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.message_el svg{
+    margin: 32px 0px;
+}
+
+.message_el h5{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+text-align: center;
+
+/* logo-color */
+
+color: #25306C;
+margin-bottom: 8px;
+}
+.message_el p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13.95px;
+line-height: 23px;
+/* or 167% */
+
+text-align: center;
+
+/* logo-color */
+
+color: #25306C;
+
+opacity: 0.6;
+}
+.message_el .pages{
+    margin-top: 20px;
+}
+.message_el a {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+    color: #25306C;
+}

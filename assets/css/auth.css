@@ -1,0 +1,107 @@
+
+#sign_in_form{
+    margin-bottom: 217px;
+}
+.common_form label{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+/* logo-color */
+color: #25306C;
+    margin-bottom: 8px;
+}
+
+.common_form button{
+    width: 70%;
+    margin: auto;
+}
+
+.sign_in_form_el{
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+}
+
+.common_form input{
+    border: 1px solid rgba(37, 48, 108, 0.4);
+    border-radius: 8px;
+    padding: 13px 16px;
+    margin-bottom: 32px;
+
+} 
+
+.common_form .btn-primary{
+    width: 80%;
+}
+
+.common_form p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* logo-color */
+
+color: #25306C;
+}
+
+.sign_up_btn{
+    border: 1px solid rgba(37, 48, 108, 0.2);
+border-radius: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #25306C;
+padding: 10px 20px;
+
+}
+
+.sign_up_option .sign_up_btn{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.forgot_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* logo-color */
+    
+    color: #25306C;
+    
+    opacity: 0.6;
+}
+
+.recover_link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+    /* logo-color */
+    
+    color: #25306C;
+    
+    opacity: 0.4;
+    
+}
