@@ -17,12 +17,12 @@
 .checkout_form input, .checkout_form select{
     border: 1px solid rgba(37, 48, 108, 0.4);
     border-radius: 8px;
-    padding: 13px 16px;
+    padding: 9px 16px;
     margin-bottom: 32px;
 }
 
 .long_button{
-    padding: 10px;
+    padding: 9px 10px;
     min-width: 300px;
     max-width: 300px;
     width: 100%;

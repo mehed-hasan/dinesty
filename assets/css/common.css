@@ -70,7 +70,7 @@ p{
 }
 
 .long_button{
-  padding: 10px;
+  padding: 9px 10px;
   min-width: 300px;
   max-width: 300px;
   width: 100%;
@@ -88,11 +88,17 @@ p{
 
   
 .first_content{
-    margin-top: 140px;
+    padding-top: 140px !important;
   }
   
-
-
+  #progress_bar{
+    min-height: 55px;
+    max-width: 512px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
   .gap{
     height: 4rem;
   }
@@ -103,6 +109,9 @@ p{
   .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
     border: none;
+}
+.navbar-collapse{
+  background-color: white;
 }
 
 .navbar-toggler:focus{
@@ -154,6 +163,7 @@ p{
   .navbar{
     transition: .7s;
     padding: 11.5px 0px;
+    z-index: 1;
     
   }
   .change_nav{
@@ -289,7 +299,6 @@ p{
     max-width: 562px;
     width: 100%;
     margin: auto;
-    margin-top: 140px;
     margin-bottom: 62px;
   }
 
@@ -437,6 +446,7 @@ opacity: 0.6;
     background: rgba(37, 48, 108, 0.05);
     padding-top: 60px;
     padding-bottom: 27px;
+
   }
 
 
@@ -518,4 +528,11 @@ text-align: center;
 color: #25306C;
 margin-bottom: 10px;
 
+  }
+  .page_content{
+    min-height: 100vh;
+  }
+
+  ::placeholder{
+    color:rgba(37, 48, 108, 0.2) !important;
   }

@@ -165,7 +165,12 @@
 
 
 @media screen and (max-width:768px){
-
+    .gap_96{
+        height: 32px;
+    }
+    .gap_40{
+        height: 20px;
+    }
     .loading{
         font-size: 20px;
     }
@@ -373,6 +378,26 @@
     .modal-body .product_info {
         padding: 15px 5px;
         margin-bottom: 0px;
+    }
+
+    .quantity_price span{
+        font-size: 23px;
+    }
+
+    .bold_heading{
+        font-size: 20px;
+    }
+    .message_el h5{
+        font-size: 16px;
+    }
+    .message_el{
+        padding: 0px 12px;
+    }
+    .btn-primary{
+        font-size: 14px;
+    }
+    .message_el svg{
+        height: 60px;
     }
 }
 

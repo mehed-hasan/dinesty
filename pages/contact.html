@@ -26,7 +26,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-      <title>DYNASTY | Home  </title>
+      <title>DYNASTY | Contact  </title>
    </head>
    
    <body> 
@@ -70,7 +70,7 @@
               </li>
             </ul>
             <div class="right_nav">
-              <a class="btn btn-secondary register_btn" href="">Register / Login</a>
+              <a class="btn btn-secondary register_btn" href="signup_1.html">Register / Login</a>
             <a class="btn btn-primary" href="">
               <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.34186 2.12085L4.3252 5.14585" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -89,48 +89,54 @@
     </section>
 
 
-      <section id="contact_form">
+      <div class="page_content">
+        <section id="contact_form" class="first_content">
 
-        <div class="secondary_heading text-center">
-            <h1>Contact Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        </div>
-        
-          <div class="container-fluid contact_el ">
-            <form action="/" method="post">
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <label for="">Name</label>
-                        <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <label for="">Email</label>
-                        <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <label for="">Context</label>
-                        <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <label for="">Subject</label>
-                        <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
-                    </div>
-
-                    <div class="col-12">
-                        <label for="">Message</label>
-                    <textarea placeholder="Write your text here " class="form-control" name="" id="" cols="10" rows="5"></textarea>
-                    </div>
-                </div>
-
-
-                <button class="btn btn-primary" type="submit">Send Messege</button>
-            </form>
+          <div class="secondary_heading text-center">
+              <h1>Contact Us</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
           </div>
-          <div class="gap"></div>
-      </section>
-
-    
-      <div class="gap"></div>
+          
+            <div class="container-fluid contact_el ">
+              <form action="/" method="post">
+                  <div class="row">
+                      <div class="col-12 col-sm-6">
+                          <label for="">Name</label>
+                          <input class="form-control" type="text" name="Name" id="" placeholder="Enter your name">
+                      </div>
+                      <div class="col-12 col-sm-6">
+                          <label for="">Email</label>
+                          <input class="form-control" type="text" name="Name" id="" placeholder="Enter your Emial">
+                      </div>
+                      <div class="col-12 col-sm-6">
+                          <label for="">Context</label>
+                          <input class="form-control" type="text" name="Name" id="" placeholder="Provide context">
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <!-- Select Subject -->
+                          <label for="">Subject</label>
+                          <select class="form-control" name="" id="">
+                            <option value="">Subject 1</option>
+                            <option value="">Subject 2</option>
+                          </select>
+                      </div>
+  
+                      <div class="col-12">
+                          <label for="">Message</label>
+                      <textarea placeholder="Write your  question here" class="form-control" name="" id="" cols="10" rows="5"></textarea>
+                      </div>
+                  </div>
+  
+  
+                  <button style="max-width:254px;width:100%;    padding: 12px 10px;" class="btn btn-primary" type="submit">Send Messege</button>
+              </form>
+            </div>
+            <div class="gap"></div>
+        </section>
+  
+      
+        <div class="gap"></div>
+      </div>
 
       <section id="footer">
         <div class="container-fluid container-lg">
@@ -207,7 +213,6 @@
           <p>COPYRIGHT © 2017-2022 DYNASTY FOOD & BEVERAGE INDUSTRIES - ALL RIGHTS RESERVED. A CONCERN OF DYNASTY GROUP. </p>
         </div>
      </section>
-  
 
 
    </main>

@@ -25,16 +25,17 @@ color: #25306C;
     margin: auto;
 }
 
-.common_form input{
+.common_form input[type="tel"],.common_form input[type="text"],.common_form input[type="email"],.common_form input[type="password"]{
     border: 1px solid rgba(37, 48, 108, 0.4);
     border-radius: 8px;
-    padding: 13px 16px;
+    padding: 9px 16px;
     margin-bottom: 32px;
 
 } 
 
 .common_form .btn-primary{
     width: 80%;
+    padding: 9px 12px;
 }
 
 .common_form p{
@@ -104,4 +105,30 @@ padding: 10px 20px;
     
     opacity: 0.4;
     
+}
+
+.note {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    
+    
+    color: rgba(37, 48, 108, 0.4);  
+}
+b{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* or 129% */
+
+
+/* logo-color */
+
+color: #25306C;
+
 }

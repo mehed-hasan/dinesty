@@ -300,7 +300,7 @@ margin-bottom: 12px;
         text-align: center;
         color: #89CFF0;
         margin-bottom: 41px;
-      }
+      } 
 
 
     
@@ -526,6 +526,21 @@ margin-bottom: 12px;
         display: flex;
         align-items: center;
         padding: 77px;
+      }
+
+      .contact_el input{
+        padding: 19px 10px;
+      }
+      .contact_el select{
+        display: flex;
+        align-items: center;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -27 40 67'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M2 5l6 6 5-6'/%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding: 19px 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        background-color: #f8fafd;
+        color: #ced4da;
       }
 
       #contact_form form{
