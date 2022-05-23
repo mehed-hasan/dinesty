@@ -399,6 +399,19 @@
     .message_el svg{
         height: 60px;
     }
+    .cart_panel .heading_title{
+        padding-left: 10px;
+    }
+    .cart_heading{
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+    .cart_heading h3{
+        font-size: 18px;
+    }
+    .custom .btn-primary{
+        border-radius: 8px;
+    }
 }
 
 
@@ -412,4 +425,36 @@
     .m3.mini_footer_part{
         text-align: center;
     }
+
+    .carted_product {
+        width: 95%;
+        margin: auto;
+    }
+    
+    .cart_panel .quantity_price span{
+        font-size: 14px;
+    }
+
+    .carted svg{
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+      }
+      .cart_panel .heading_title{
+        padding-left: 5px;
+    }
+    .cart_panel .product_img img {
+        max-width: 60px;
+        margin-right: 5px;
+    }
+    .carted{
+        width: 95%;
+    }
+    .cart_panel .quantity{
+        padding: 0px;
+    }
+    .checkout button{
+        padding: 8px 25px;
+    }
+    
 }
