@@ -5,6 +5,15 @@
 }
 
 
+@media screen and (max-width: 1200px){
+    .about_topics{
+        margin-bottom: 20px;
+    }
+    
+    }
+
+
+
 /* Laptopn screen  */
 @media only screen and (max-width: 1366px) and (min-width: 992px){
 
@@ -40,6 +49,8 @@
         line-height: 100px;
     
     }
+
+ 
 
 
     /* ABout section  */
@@ -117,10 +128,6 @@
         
         }
 
-        #hero .slide_btn{
-            top: 80%;
-        }
-
 
         /* ABout section  */
         .about_topics{
@@ -128,7 +135,7 @@
             overflow: hidden;
         }
         .about_overlay{
-            display: none;
+            /* display: none; */
         }
         #about .about_topics h3{
             font-size: 18px;
@@ -188,10 +195,10 @@
         display: none !important;
     }
 
-    #hero .slide_btn{
-        top: 60%;
-    }
 
+    #products .products_left h2{
+        font-size: 15px;
+    }
 
     /* Product section  */
 
@@ -243,9 +250,7 @@
     #about h1{
         margin-bottom: 10px;
     }
-    .about_topics{
-        margin-bottom: 20px;
-    }
+    
 
     #alkaline_info2 .info_left {
         display: inline-grid;
@@ -312,9 +317,7 @@
           font-size: 22px;
           line-height: 40px;
       }
-      .secondary_heading{
-          margin-top: 70px;
-      }
+
 
       #contact_form label{
           font-size: 16px;
@@ -323,6 +326,12 @@
           padding: 10px 25px;
           margin-bottom: 15px;
       }
+      #contact_form select {
+        padding: 10px 25px;
+        margin-bottom: 15px;
+    }
+
+
 
       .change_nav{
         background-color: white !important;
@@ -348,9 +357,9 @@
       }
 
       #contact_form button {
-        border-radius: 12px;
-        padding: 12px 51px;
-        width: 100%;
+        border-radius: 12px !important;
+        padding: 12px 51px !important;
+        width: 100% !important;
     }
 
     #video .video_heading{
@@ -457,4 +466,14 @@
         padding: 8px 25px;
     }
     
+
+    .about_overlay p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .about_overlay{
+        padding: 0px 5px;
+    }
+
+
 }

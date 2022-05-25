@@ -1,7 +1,7 @@
 
 
   #hero{
-
+    position: relative;
   }
   #hero .container-fluid{
     position: relative;
@@ -82,7 +82,7 @@ margin-bottom: 32px;
     padding: 10px 5px;
     position: absolute;
     left: 50%;
-    top: 80%;
+    bottom: 2%;
     transform: translate(-25px, 0px);
   }
   #hero .slide_btn svg{
@@ -200,11 +200,11 @@ margin-bottom: 12px;
         background-position: center;
         background-repeat: no-repeat;
         background-origin: center;
-        background-size: cover;
+        background-size: contain;
         border-radius: 8px;
         position: relative;
         overflow: hidden;
-        margin-bottom: 8px;
+        margin-bottom: 21px;
         
       }
       .products_img:hover .quick_view{
@@ -222,7 +222,7 @@ margin-bottom: 12px;
 
       .about_product{
         margin-top: 16px;
-        margin-bottom: 31px;
+        margin-bottom: 16px;
       }
       .about_product p{
         font-style: normal;
@@ -237,7 +237,7 @@ margin-bottom: 12px;
 
 
       .price small{
-        font-size: 14px;
+        font-size: 16px;
         margin-right: 15px;
       }
       .price{
@@ -254,10 +254,18 @@ margin-bottom: 12px;
         opacity: 0.6;
         text-align: center;
         text-transform: uppercase;
-        max-width: 380px;
+        max-width: 277px;
         width: 100%;
+        height: 37px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 14px;
+        font-weight: 400;
+}
 
-      }
+      
 
       .btn-secondary:hover{
           background: rgba(137, 207, 240, 0.5);
@@ -428,6 +436,7 @@ margin-bottom: 12px;
         justify-content: center;
         padding: 0px 44px;
         transition: .7s;
+        overflow: hidden;
       }
 
       .about_overlay h3{
@@ -753,7 +762,6 @@ opacity: 0.6;
 .about_details{
   padding-top: 20px;
   padding-bottom: 26px;
-  padding-left: 40px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -764,7 +772,7 @@ opacity: 0.6;
 }
 
 .about_details .details{
-  margin-top: 30px;
+  margin-top: 20px;
   max-width: 595px;
   width: 100%;
 }
@@ -774,12 +782,13 @@ opacity: 0.6;
 
 /* Akline info 2 */
 #alkaline_info2 h1{
-  max-width: 1168px;
+  max-width: 745px;
+  width: 100%;
   margin: auto;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 68px;
   text-align: center;
   color: #89CFF0;
