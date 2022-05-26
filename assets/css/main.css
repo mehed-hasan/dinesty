@@ -665,7 +665,6 @@ opacity: 0.6;
 
 
 #privacy .nav-item button{
-  min-width: 281px;
   width: 100%;
   text-align: left;
   padding-left: 40px;
@@ -683,7 +682,6 @@ opacity: 0.6;
 
 
 #privacy .nav-item button.active{
-  min-width: 281px;
   width: 100%;
   text-align: left;
   padding-left: 40px;

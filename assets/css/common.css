@@ -442,6 +442,7 @@ opacity: 0.6;
   .modal-content{
     padding: 40px;
     border-radius: 16px;
+    border: none;
   }
   
   .modal-content img{

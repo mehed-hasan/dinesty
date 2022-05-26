@@ -451,6 +451,25 @@
       .product_img img{
           margin: auto;
       }
+      #privacy .nav-item button{
+          margin-bottom: 5px;
+      }
+      .tab-content .secondary_heading{
+          margin-bottom: 26px;
+          margin-left: 0px;
+      }
+      .tab-content .secondary_heading h1{
+          text-align: left;
+      }
+      .tab-content .secondary_heading p{
+          text-align: left;
+      }
+      .tab-content .first_content{
+          padding-top: 20px !important;
+      }
+      #privacy .nav {
+        width: 100%;
+    }
     
 }
 
