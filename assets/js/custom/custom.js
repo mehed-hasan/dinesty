@@ -69,10 +69,8 @@ $(window).on('load', function () {
 
    
         $(".closer, .closer_btn").click(function(){
-          
-
           $(".cart_body").removeClass("cart_body_active");
           $("body").css({'overflow':'unset'});
-        })
+        });
 
         // Cart Sliding functionalties

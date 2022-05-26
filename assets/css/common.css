@@ -88,6 +88,12 @@ p{
     height: 100vh;
   }
 
+  .custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   
 .first_content{
     padding-top: 140px !important;
@@ -551,7 +557,7 @@ margin-bottom: 10px;
     height: 100%;
     z-index: 9899;
     right: -100%;
-    top:72px;
+    top:82px;
     height: 100vh;
     overflow: hidden;
     transition: .8s;
