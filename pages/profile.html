@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/common.css" rel="stylesheet" type="text/css">
+      <link href="../assets/css/profile.css" rel="stylesheet" type="text/css">
+
+
+
+      <link href="../assets/css/media_query.css" rel="stylesheet" type="text/css">
+      <!-- <link rel="stylesheet" href="../assets/plugins/aos/aos-2.3.1.css" type="text/css"> -->
+      <link rel="stylesheet" href="../assets/plugins/slick/slick.1.8.1.css" type="text/css" />
+
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+      <title>DYNASTY | User Profile  </title>
+   </head>
+   
+   <body> 
+    <main id="main">
+
+      <!-- preloader section started   -->
+      <section id="preloader" >
+
+        
+        <div class="loading loading01">
+          <span>S</span>
+          <span>A</span>
+          <span>K</span>
+          <span>U</span>
+          <span>R</span>
+          <span>A</span>
+        </div>
+    </section>
+    <!-- preloader section ended   -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <div class="custom">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <a class="navbar-brand ms-2 m-lg-0" href="../index.html"><img src="../assets/images/logo/logo.svg" alt=""></a>
+          
+
+          </div>
+
+          <button class="btn btn-primary d-block d-lg-none cart_btn" >
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.34186 2.12085L4.3252 5.14585" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.6582 2.12085L15.6749 5.14585" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M1.6665 6.99577C1.6665 5.4541 2.4915 5.3291 3.5165 5.3291H16.4832C17.5082 5.3291 18.3332 5.4541 18.3332 6.99577C18.3332 8.78744 17.5082 8.66244 16.4832 8.66244H3.5165C2.4915 8.66244 1.6665 8.78744 1.6665 6.99577Z" stroke="white" stroke-width="1.2"/>
+              <path d="M8.1333 12.1208V15.0792" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M11.9668 12.1208V15.0792" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M2.9165 8.78735L4.0915 15.9874C4.35817 17.604 4.99984 18.7874 7.38317 18.7874H12.4082C14.9998 18.7874 15.3832 17.654 15.6832 16.0874L17.0832 8.78735" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+          </button>
+
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul> 
+            <div class="right_nav">
+              <a class="btn btn-secondary register_btn" href="signup_1.html">Register / Login</a>
+              <button class="btn btn-primary d-none d-lg-inline-block cart_btn" >
+                <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.34186 2.12085L4.3252 5.14585" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12.6582 2.12085L15.6749 5.14585" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M1.6665 6.99577C1.6665 5.4541 2.4915 5.3291 3.5165 5.3291H16.4832C17.5082 5.3291 18.3332 5.4541 18.3332 6.99577C18.3332 8.78744 17.5082 8.66244 16.4832 8.66244H3.5165C2.4915 8.66244 1.6665 8.78744 1.6665 6.99577Z" stroke="white" stroke-width="1.2"/>
+                  <path d="M8.1333 12.1208V15.0792" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M11.9668 12.1208V15.0792" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M2.9165 8.78735L4.0915 15.9874C4.35817 17.604 4.99984 18.7874 7.38317 18.7874H12.4082C14.9998 18.7874 15.3832 17.654 15.6832 16.0874L17.0832 8.78735" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+                  </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </section>
+    <div class="sub_nav">
+        <a  href="signup_1.html" class="active">Profile</a>
+        <a  href="signup_1.html">Order</a>
+    </div>
+
+      <div class="page_content">
+          <div class="has_sub_nav"></div>
+        <div class="cart_body">
+          <div class="closer"></div>
+          <div class="cart_panel">
+            <div class="cart_heading">
+               <h3 class="bold">Cart (2)</h3>
+  
+               
+               <svg class="d-block d-lg-none closer_btn" width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 7L7 25" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25 25L7 7" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+            </div>
+            <div class="carted_products">
+              <div class="gap_40"></div>
+              
+              <div class="all_carteds">
+                <div class="carted">
+  
+                  <a role="button" class="item_delete">
+                    <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M25 7L7 25" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M25 25L7 7" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </a>
+  
+                  <div class="product_img carted_product text">
+                    <img class="img-fluid" src="../assets/images/products/Frame 89.svg" alt="">
+  
+                    <div class="heading_title">
+                      <h3 class="title">Sakura Drinking Water </h3>
+                      <a class="filter_btn_active align-text-bottom">500mL</a>
+                    </div>
+  
+  
+                    <div class="quantity">
+                      <div class="btn-group counter_btn" role="group" aria-label="Basic outlined example" style="display: flex;">
+                        <button type="button" class="btn  add_btn">+</button>
+                        <input class="text-center" type="number" disabled=""  value="1">
+                        <button type="button" class="btn remove_btn"> - </button>
+                     </div>
+      
+                     <div class="quantity_price justify-content-center justify-content-md-start">
+                      <small>BDT</small> <span>100.00</span>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+  
+              <div class="button_wrapper checkout text-center">
+                <button class="btn btn-primary form-control">Checkout</button>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="profile first_content">
+            <div class="container">
+                <div class="profile_el">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <div class="account">
+                                <h3 class="bold">Account</h3>
+                                <div class="gap_60"></div>
+                                <div class="user_info">
+                                    <label for="">User Name</label>
+                                    <p>Atif Aslam</p>
+                                </div>
+    
+                                <div class="user_info">
+                                    <label for="">Email</label>
+                                    <p>atif@example.com</p>
+                                </div>
+    
+                                <a class="btn btn-edit" href="">
+                                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6 13.9999H3C2.86739 13.9999 2.74022 13.9473 2.64645 13.8535C2.55268 13.7597 2.5 13.6326 2.5 13.4999V10.7062C2.49978 10.6413 2.51236 10.5769 2.53702 10.5169C2.56169 10.4568 2.59796 10.4022 2.64375 10.3562L10.1438 2.8562C10.1903 2.80895 10.2457 2.77144 10.3069 2.74583C10.3681 2.72022 10.4337 2.70703 10.5 2.70703C10.5663 2.70703 10.6319 2.72022 10.6931 2.74583C10.7543 2.77144 10.8097 2.80895 10.8563 2.8562L13.6438 5.6437C13.691 5.69022 13.7285 5.74568 13.7541 5.80684C13.7797 5.868 13.7929 5.93364 13.7929 5.99995C13.7929 6.06625 13.7797 6.13189 13.7541 6.19305C13.7285 6.25421 13.691 6.30967 13.6438 6.3562L6 13.9999Z" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.5 14H6" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M8.5 4.5L12 8" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                        
+                                    Edit or Change
+                                </a>
+    
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <div class="addresses" >
+                                <h3 class="bold">Account</h3>
+                                <div class="gap_60"></div>
+                                   <form action="">
+                                       <div class="address_card">
+                                           <input required type="radio" name="" id="">
+                                        <div class="address_info">
+                                            <h5>Office 01 
+                                                <a style="text-decoration:none" href="">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9 20.2499H4.5C4.30109 20.2499 4.11033 20.1709 3.96967 20.0302C3.82902 19.8896 3.75 19.6988 3.75 19.4999V15.3093C3.74966 15.2119 3.76853 15.1154 3.80553 15.0253C3.84253 14.9352 3.89694 14.8533 3.96563 14.7843L15.2156 3.53429C15.2854 3.46343 15.3686 3.40715 15.4603 3.36874C15.5521 3.33033 15.6505 3.31055 15.75 3.31055C15.8495 3.31055 15.9479 3.33033 16.0397 3.36874C16.1314 3.40715 16.2146 3.46343 16.2844 3.53429L20.4656 7.71554C20.5365 7.78533 20.5928 7.86851 20.6312 7.96026C20.6696 8.052 20.6894 8.15046 20.6894 8.24992C20.6894 8.34938 20.6696 8.44784 20.6312 8.53958C20.5928 8.63132 20.5365 8.71451 20.4656 8.78429L9 20.2499Z" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M20.25 20.25H9" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M12.75 6L18 11.25" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                </a>
+                                                    
+                                            </h5>
+                                            <p>
+                                                Add the address where a delivery man should arrive with 
+                                                your orderd product.
+                                            </p>
+                                        </div>
+                                       </div>
+    
+                                       <div class="address_card">
+                                        <input required type="radio" name="" id="">
+                                        <div class="address_info">
+                                            <h5>Office 02
+    
+                                                <a style="text-decoration:none" href="">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9 20.2499H4.5C4.30109 20.2499 4.11033 20.1709 3.96967 20.0302C3.82902 19.8896 3.75 19.6988 3.75 19.4999V15.3093C3.74966 15.2119 3.76853 15.1154 3.80553 15.0253C3.84253 14.9352 3.89694 14.8533 3.96563 14.7843L15.2156 3.53429C15.2854 3.46343 15.3686 3.40715 15.4603 3.36874C15.5521 3.33033 15.6505 3.31055 15.75 3.31055C15.8495 3.31055 15.9479 3.33033 16.0397 3.36874C16.1314 3.40715 16.2146 3.46343 16.2844 3.53429L20.4656 7.71554C20.5365 7.78533 20.5928 7.86851 20.6312 7.96026C20.6696 8.052 20.6894 8.15046 20.6894 8.24992C20.6894 8.34938 20.6696 8.44784 20.6312 8.53958C20.5928 8.63132 20.5365 8.71451 20.4656 8.78429L9 20.2499Z" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M20.25 20.25H9" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        <path d="M12.75 6L18 11.25" stroke="#25306C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                </a>
+                                            </h5>
+                                            <p>
+                                                Add the address where a delivery man should arrive with 
+                                                your orderd product.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                   </form>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+      </div>
+
+      <section id="footer">
+        <div class="container-fluid container-lg">
+          <div class="row">
+            <div class=" col-12 col-sm-12 col-lg-4">
+              <div class="footer_left">
+                <img src="../assets/images/logo/logo.svg" alt="">
+              <h6>DYNASTY FOOD & BEVERAGE INDUSTRIES</h6>
+              <p>FORTUNE VILLA, 16/10, RANKIN STREET, WARI, DHAKA 1203 BD</p>
+              </div>
+            </div>
+  
+            <div class=" col-6 col-sm-6 col-lg-2 mini_footer_part m1">
+              <a href="../index.html">Home</a>
+              <a href="../products.html">Product</a>
+              <a href="about.html">About</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+  
+  
+            <div class=" col-6 col-sm-6 col-lg-2 mini_footer_part m2">
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="privacy.html">Payment Policy</a>
+              <a href="privacy.html">Shipping Policy</a>
+              <a href="privacy.html">Terms & Conditions</a>
+            </div>
+  
+  
+  
+            <div class=" col-12 col-sm-12 col-lg-4 mini_footer_part m3">
+              <a href="tel:+88 01791151229">+88 01791151229</a>
+                <a href="mailto: support@dynastyfnb.com">support@dynastyfnb.com</a>
+                <div class="footer_social">
+                  <a href=""><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 16L14 12V20L20 16Z" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 16C3 19.725 3.3875 21.9 3.675 23.025C3.75427 23.3302 3.90418 23.6126 4.11262 23.8493C4.32106 24.0859 4.58221 24.2703 4.875 24.3875C9.0625 25.9875 16 25.95 16 25.95C16 25.95 22.9375 25.9875 27.125 24.3875C27.4178 24.2703 27.6789 24.0859 27.8874 23.8493C28.0958 23.6126 28.2457 23.3302 28.325 23.025C28.6125 21.9 29 19.725 29 16C29 12.275 28.6125 10.1 28.325 8.975C28.2457 8.66975 28.0958 8.38741 27.8874 8.15074C27.6789 7.91407 27.4178 7.7297 27.125 7.6125C22.9375 6.0125 16 6.05 16 6.05C16 6.05 9.0625 6.0125 4.875 7.6125C4.58221 7.7297 4.32106 7.91407 4.11262 8.15074C3.90418 8.38741 3.75427 8.66975 3.675 8.975C3.3875 10.1 3 12.275 3 16Z" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </a>
+  
+                    <a href="">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9997 11C15.9997 8.24997 18.3122 5.96247 21.0622 5.99997C22.0253 6.01108 22.9646 6.30011 23.7673 6.83231C24.5701 7.36451 25.202 8.11722 25.5872 8.99997H29.9997L25.9622 13.0375C25.7016 17.0932 23.9063 20.8974 20.9412 23.6768C17.9761 26.4562 14.0638 28.002 9.9997 28C5.9997 28 4.9997 26.5 4.9997 26.5C4.9997 26.5 8.9997 25 10.9997 22C10.9997 22 2.9997 18 4.9997 6.99997C4.9997 6.99997 9.9997 12 15.9997 13V11Z" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    </a>
+  
+                    <a href="">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="#25306C" stroke-width="2" stroke-miterlimit="10"/>
+                        <path d="M21.5 4.5H10.5C7.18629 4.5 4.5 7.18629 4.5 10.5V21.5C4.5 24.8137 7.18629 27.5 10.5 27.5H21.5C24.8137 27.5 27.5 24.8137 27.5 21.5V10.5C27.5 7.18629 24.8137 4.5 21.5 4.5Z" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="#25306C"/>
+                        </svg>
+                        
+                    </a>
+  
+                    <a href="">
+                      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M21 11H19C18.6056 10.9984 18.2147 11.0748 17.85 11.225C17.4853 11.3752 17.1539 11.5961 16.875 11.875C16.5961 12.1539 16.3752 12.4853 16.225 12.85C16.0748 13.2147 15.9984 13.6056 16 14V28" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 18H20" stroke="#25306C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    </a>
+                </div>
+            </div>
+  
+  
+          </div>
+        </div>
+  
+        <div class="gap"></div>
+  
+        <div class="tiny_footer text-center">
+          <p>COPYRIGHT © 2017-2022 DYNASTY FOOD & BEVERAGE INDUSTRIES - ALL RIGHTS RESERVED. A CONCERN OF DYNASTY GROUP. </p>
+        </div>
+     </section>
+
+   </main>
+
+      <!-- Core Js  -->
+
+      <script src="../assets/js/core/jquery-3.6.0.js" type="text/javascript"></script>
+      <script src="../assets/js/core/popper.min.js" type="text/javascript" ></script>
+      <script src="../assets/js/core/bootstrap.min.js" type="text/javascript" ></script>
+      <!-- Plugin Js  -->
+      <script src="../assets/plugins/slick/slick.1.8.1.js" type="text/javascript"></script>
+      <script src="../assets/js/custom/custom.js" type="text/javascript"></script>
+      </script>
+
+
+   </body>
+</html>
+
+<style> 
+
+</style>
+

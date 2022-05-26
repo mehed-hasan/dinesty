@@ -70,6 +70,9 @@ p{
 .gap_40{
   height: 40px;
 }
+.gap_60{
+  height: 60px;
+}
 
 .long_button{
   padding: 9px 10px;
@@ -809,3 +812,4 @@ color: #25306C;
   margin: unset !important;
   max-width: 340px;
 } 
+
