@@ -178,6 +178,12 @@
     .gap_40{
         height: 20px;
     }
+    .gap_64{
+        height: 32px;
+    }
+    .first_content {
+        padding-top: 70px !important;
+    }
     .loading{
         font-size: 20px;
     }
@@ -474,6 +480,37 @@
       #privacy .nav {
         width: 100%;
     }
+
+    .sub_nav{
+        top: 69px;
+    }
+    .profile .btn{
+        margin-top: 32px;
+    }
+
+    .profile .account{
+        margin: auto;
+    }
+    .account h3{
+        text-align: center;
+    }
+
+    .addresses{
+        margin-top: 64px;
+    }
+    .addresses h3{
+        text-align: center;
+    }
+
+    .ordered_info .price{
+        margin-top: 20px;
+    }
+    .ordered_info{
+        margin-top: 20px;
+    }
+    .ordered_product .heading_title{
+        margin-top: 20px;
+    }
     
 }
 
@@ -530,4 +567,18 @@
     }
 
 
+    .ordered_product {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ordered_info {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
 }
