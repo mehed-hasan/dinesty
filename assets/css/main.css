@@ -199,8 +199,8 @@ margin-bottom: 12px;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
-        background-origin: center;
-        background-size: contain;
+        background-origin:content-box;
+        background-size: cover;
         border-radius: 8px;
         position: relative;
         overflow: hidden;
@@ -288,7 +288,7 @@ margin-bottom: 12px;
       }
 
       .product_page .products_img {
-        min-height: 662px !important;
+        min-height: 662px;
       }
       
 

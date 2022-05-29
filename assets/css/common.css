@@ -335,6 +335,7 @@ p{
     margin-bottom: 16px;
     display: inline-flex;
     transition: .5s;
+    align-items: center;
   }
   .filter_group input{
     appearance: none;
