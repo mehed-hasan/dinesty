@@ -151,7 +151,7 @@ backdrop-filter: blur(15px);
     position: fixed;
     top: 80px;
     width: 100%;
-    z-index: 9;
+    z-index: 1;
 
 }
 .has_sub_nav{
@@ -240,7 +240,7 @@ border-radius: 8px;
     justify-content: space-between;
 
 }
-.create_address input{
+.create_address input, .create_address select{
     background: rgba(67, 78, 101, 0.05);
 border: 1px solid transparent;
 border-radius: 10px;

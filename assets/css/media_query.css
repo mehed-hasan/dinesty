@@ -511,7 +511,21 @@
     .ordered_product .heading_title{
         margin-top: 20px;
     }
-    
+    .send_message{
+        height: 48px;
+        max-width: 100%;
+    }
+    #contact_form .secondary_heading{
+        padding: 10px;
+    }
+    #alkaline_info2 .info_left .info_list ol {
+        list-style: disc;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .heading_and_button{
+        justify-content: center;
+    }
 }
 
 

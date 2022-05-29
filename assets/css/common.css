@@ -95,6 +95,7 @@ p{
   #main{
     overflow: hidden;
     height: 100vh;
+    z-index: 0;
   }
 
   .custom{
@@ -186,6 +187,7 @@ p{
     z-index: 1;
     box-shadow: 0px 4px 20px rgba(37, 48, 108, 0.05);
     backdrop-filter: blur(15px);
+    z-index: 3;
     
   }
   .change_nav{
@@ -818,4 +820,9 @@ color: #25306C;
   margin: unset !important;
   max-width: 340px;
 } 
+.send_message{
+  height: 48px;
+  max-width: 254px;
+  width: 100%;
+}
 
