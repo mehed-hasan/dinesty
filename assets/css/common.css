@@ -16,6 +16,19 @@
       border-color: none !important;
       box-shadow: none !important;
   }
+
+  .cart_btn:focus {
+    color: #fff;
+    background: rgba(137, 207, 240, 0.5)!important;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
+.cart_btn:focus path {
+  stroke: #25306C !important;
+}
+
+
   .btn, .btn_add_new, .btn-save{
     transition: .5s;
   }
@@ -25,6 +38,9 @@
 }
 .btn:hover path {
   stroke: #25306C !important;
+}
+.filter_btn_active:hover{
+  background-color: #25306C !important;
 }
 
     button{
