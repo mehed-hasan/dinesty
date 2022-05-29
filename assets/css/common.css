@@ -826,3 +826,6 @@ color: #25306C;
   width: 100%;
 }
 
+.check_form input{
+  cursor: pointer;
+}

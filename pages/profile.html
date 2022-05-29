@@ -217,7 +217,7 @@
                                 Add New Address</a>
                                 </div>
                                 <div class="gap_60"></div>
-                                   <form action="">
+                                   <form class="check_form" action="">
                                        <div class="address_card">
                                            <input required type="radio" name="" id="">
                                             <div class="address_info">
@@ -356,6 +356,16 @@
       <!-- Plugin Js  -->
       <script src="../assets/plugins/slick/slick.1.8.1.js" type="text/javascript"></script>
       <script src="../assets/js/custom/custom.js" type="text/javascript"></script>
+      </script>
+
+      <script>
+        $(".check_form input").click(function(){
+          var a = 0;
+          $(".check_form input").prop("checked", false);
+          $(this).prop("checked", true);
+
+          // Back end code here 
+        });
       </script>
 
 
