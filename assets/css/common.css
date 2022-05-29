@@ -10,6 +10,23 @@
    
     
     }
+    .btn:focus {
+      color: #fff;
+      background-color:none !important;
+      border-color: none !important;
+      box-shadow: none !important;
+  }
+  .btn, .btn_add_new, .btn-save{
+    transition: .5s;
+  }
+  .btn:hover, .btn_add_new:hover, .btn-save:hover {
+    background: rgba(137, 207, 240, 0.5);
+    color: #25306C !important;
+}
+.btn:hover path {
+  stroke: #25306C !important;
+}
+
     button{
       border: none;
       box-shadow: none;
