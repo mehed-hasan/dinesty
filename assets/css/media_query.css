@@ -526,6 +526,9 @@
     .heading_and_button{
         justify-content: center;
     }
+    .shop_now svg{
+        display: none;
+    }
 }
 
 
