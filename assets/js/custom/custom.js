@@ -9,6 +9,10 @@ $(window).on('load', function () {
 
 
 
+$(".nav_search, #navbar form svg").click(function () {
+  $(".search_modal").modal('show');
+});
+
     $(".filter_btn_active").each(function(){
         $price_val = $(this).parent().find(".filter_btn_active").attr("data-price");
         $(this).parent().parent().find(".p_price").text($price_val+".00");
@@ -74,3 +78,53 @@ $(window).on('load', function () {
         });
 
         // Cart Sliding functionalties
+
+
+
+
+
+
+
+
+
+        // Search nav js 
+
+        $.expr[":"].icontains = $.expr.createPseudo(function(arg) {
+          return function( elem ) {
+              return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+          };
+      });
+      
+      
+      $('.data_search').keyup(function(){
+        var query = $(this).val();
+        
+        $('.search_results a:not(:icontains('+ query +'))').slideUp(100);
+        $('.search_results a:not(:icontains('+ query +'))').next('div').slideUp(100);
+        $('.search_results a:icontains('+ query +')').slideDown(100);
+        $('.search_results a:icontains('+ query +')').next('div').slideDown(100);
+        
+        
+        
+      });
+
+
+
+
+      $(".chat_btn").click(function(){
+        $(".chat_panel").css({
+          "opacity":"1",
+          "visibility":"visible"
+        });
+        $(this).fadeOut(500);
+      });
+
+      $(".close_chat").click(function(){
+        $(".chat_panel").css({
+          "opacity":"0",
+          "visibility":"hidden"
+        });
+        $(".chat_btn").fadeIn(500);
+      });
+      
+      

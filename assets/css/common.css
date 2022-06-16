@@ -65,9 +65,8 @@
     }
 
     ::-webkit-scrollbar-thumb {
-      background: rgba(10, 77, 181, .7);
+      background: rgba(181, 182, 194, 1);
       border-radius: 10px;
-      box-shadow: 0px 0px 22px rgb(0 100 255 / 67%);
     }
 
 
@@ -154,8 +153,23 @@ p{
     height: 4rem;
   }
 
+  #navbar form input{
+    background: rgba(37, 48, 108, 0.05);
+    border-radius: 8px;
+  }
 
-
+  #navbar  .call_btn{
+    background: rgba(37, 48, 108, 0.1);
+    border-radius: 8px;
+    padding: 9px ;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
   
   .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
@@ -177,6 +191,21 @@ p{
   padding: 0px;
 }
 
+@media screen and (max-width:1310px){
+  #navbar form input{
+    display: none;
+  }
+  #navbar form  svg{
+    top: -15px !important;
+  }
+}
+@media screen and (max-width:768px){
+  .close_modal {
+    right: 17px;
+    top: 15px;
+    z-index: 99;
+}
+}
 
   .left_bar{
     position: absolute;
@@ -220,7 +249,7 @@ p{
     z-index: 1;
     box-shadow: 0px 4px 20px rgba(37, 48, 108, 0.05);
     backdrop-filter: blur(15px);
-    z-index: 3;
+    z-index: 888;
     
   }
   .change_nav{
@@ -295,6 +324,7 @@ p{
     padding:12.5px ;
     border-radius: 12px;
     margin-right: 12px;
+    margin-left: 10px;
   }
 
 
@@ -862,4 +892,148 @@ color: #25306C;
 
 .check_form input{
   cursor: pointer;
+}
+
+/* //Serach modal css started  */
+
+.search_modal input:focus{
+  box-shadow: none;
+}
+.search_modal input{
+  border:none;
+  border-radius: 0px;
+  border-bottom:1px solid rgba(92, 93, 120, 1) ;
+  padding-left: 40px;
+  padding-bottom: 10px;
+ 
+}
+.search_modal  .modal-body{
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+.search_modal input::placeholder{
+  font-size: 20px;
+  color: #B5B6C2;
+}
+.search_modal  svg{
+  top: 5px;
+  left: 0px;
+  padding: 2px;
+}
+.trending_searches h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5C5D78;
+}
+.search_results{
+  height: 350px;
+  overflow: scroll;
+}
+.search_results a{
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B5B6C2;
+  text-decoration: none;
+  margin-bottom: 15px;
+
+}
+.close_modal{
+  right: 30px;
+  top: 30px;
+}
+.hidden {
+	display: none;
+}
+
+#chat{
+  right: 4%;
+  bottom: 40px;
+
+
+}
+.chat_btn{
+  right: 0px;
+  position: absolute;
+  bottom: 15px;
+}
+.chat_panel{
+  height:   600px;
+  max-width: 350px;
+  width: 100%;
+  background-color: white;
+  padding: 16px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+}
+.close_chat{
+  right: 10px;
+  top: 10px;
+}
+.chat_panel h2{
+  font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #25306C;
+margin-bottom: 7px;
+
+}
+
+.panel_action{
+  width: 90%;
+}
+.panel_action textarea{
+  margin-bottom: 32px;
+}
+
+.chat_panel p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #25306C;
+  opacity: 0.6; 
+  max-width: 293px;
+  width: 100%;
+  margin: auto;
+}
+
+.chat_panel .panel_action input{
+  padding: 8px 16px;
+  opacity: 1;
+  color: #25306C;
+  border: none;
+  background: rgba(37, 48, 108, 0.05);
+border-radius: 8px;
+
+
+}
+
+.chat_panel .panel_action input::placeholder{
+  color: #25306C;
+  opacity: 0.6;
+}
+.chat_panel button{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:1025px){
+  .chat_panel{
+    height: 400px;
+    font-size: 22px;
+}
+.chat_panel h2{
+  font-size: 22px;
+}
 }
