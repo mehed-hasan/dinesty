@@ -170,7 +170,13 @@ p{
     font-size: 14px;
     line-height: 17px;
   }
-  
+  #navbar  .call_btn svg{
+    height: 24px;
+    width: 24px;
+  }
+  #navbar  .call_btn .cotact_no{
+    font-size: 12px;
+  }
   .navbar-light .navbar-toggler {
     color: rgba(0,0,0,.55);
     border: none;
@@ -621,7 +627,7 @@ margin-bottom: 10px;
   }
 
   ::placeholder{
-    color:rgba(37, 48, 108, 0.2) !important;
+    color:rgba(37, 48, 108, .5) !important;
   }
 
   /* cart css */
@@ -954,13 +960,16 @@ color: #25306C;
 #chat{
   right: 4%;
   bottom: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
 
 
 }
 .chat_btn{
-  right: 0px;
-  position: absolute;
-  bottom: 15px;
+  right: 3%;
+  position: fixed;
+  bottom: 4%;
 }
 .chat_panel{
   height:   600px;
@@ -970,9 +979,7 @@ color: #25306C;
   padding: 35px 24px;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  opacity: 0;
-  visibility: hidden;
-  transition: 1s;
+
 }
 .close_chat{
   right: 10px;
@@ -1045,6 +1052,17 @@ border-radius: 8px;
   max-width: 600px;
   margin: auto;
 }
+
+.cookies_modal{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 4%) 0px 6px 12px, rgb(0 0 0 / 4%) 0px 0px 0px 1px;
+  padding: 20px;
+  z-index: 10;
+  display: none;
+}
 .cookies_modal h4 {
   font-style: normal;
   font-weight: 600;
@@ -1062,4 +1080,9 @@ border-radius: 8px;
   color: #25306C;
   opacity: 0.6;
 
+}
+
+.cookie_btn .btn{
+  padding: 4px 8px;
+  font-size: 12px;
 }

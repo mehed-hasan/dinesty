@@ -1,13 +1,15 @@
 
 
 // Cookies modal 
-
+$(".cookie_btn .btn").click(function(){
+  $(".cookies_modal").slideUp(500);
+})
 
 // Code for preloader will be disappeared after all contents being loaded ----------------------------------------------------------*****
 $(window).on('load', function () {
     $("#preloader ").fadeOut(500); 
     $("#main").css({'overflow':'unset'}); 
-    $(".cookies_modal").modal('show');
+    $(".cookies_modal").slideDown(700);
 
 });
 
@@ -116,7 +118,7 @@ $(".nav_search, #navbar form svg").click(function () {
 
 
       $(".chat_btn").click(function(){
-        $(".chat_panel").css({
+        $("#chat").css({
           "opacity":"1",
           "visibility":"visible"
         });
@@ -124,11 +126,27 @@ $(".nav_search, #navbar form svg").click(function () {
       });
 
       $(".close_chat").click(function(){
-        $(".chat_panel").css({
+        $("#chat").css({
           "opacity":"0",
           "visibility":"hidden"
         });
         $(".chat_btn").fadeIn(500);
       });
+
+       var a = 0;
+      $("body .products_img").each(function(){
+         a+=1;
+         $(this).attr("data-pick",a);
+      });
+
+      $(".test").click(function(){
+        var person = { "name": "billy", "age": 23};
+
+localStorage.setItem('person', JSON.stringify(person)); //stringify object and store
+// console.log('retrievedObject: ', JSON.parse(person));   
+
+      });
+
+
       
       
