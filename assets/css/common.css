@@ -1083,6 +1083,8 @@ border-radius: 8px;
 }
 
 .cookie_btn .btn{
-  padding: 4px 8px;
+  padding: 4px 32px;
   font-size: 12px;
+  border-radius: 4px;
+  margin: 0px 12px;
 }
