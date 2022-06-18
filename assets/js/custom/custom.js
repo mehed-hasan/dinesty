@@ -140,12 +140,18 @@ $(".nav_search, #navbar form svg").click(function () {
       });
 
       $(".test").click(function(){
-        var person = { "name": "billy", "age": 23};
+        const myObject = {
+          name : "john doe",
+          age : 32,
+          gender : "male",
+          profession : "optician" 
+        }
+        
+        window.localStorage.setItem("myObject", JSON.stringify(myObject));;
 
-localStorage.setItem('person', JSON.stringify(person)); //stringify object and store
-// console.log('retrievedObject: ', JSON.parse(person));   
-
-      });
+        let newObject = window.localStorage.getItem("myObject");
+        console.log(JSON.parse(newObject));
+});
 
 
       

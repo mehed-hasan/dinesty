@@ -336,11 +336,11 @@ p{
 
   .filter_btn_active, .filter_btn_active:hover{
     width: fit-content;
-    height: 29px;
+    height: 22px;
     left: 192px;
     top: 0px;
     background: #25306C;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 2px 15px;
     color: white;
     text-decoration: none;
@@ -350,8 +350,8 @@ p{
 
   .filter_btn{
     width: fit-content;
-    height: 29px;
-    border-radius: 5px;
+    height: 22px;
+    border-radius: 3px;
     padding: 2px 10px;
     color: white;
     background: rgba(37, 48, 108, 0.1);
@@ -363,7 +363,7 @@ p{
 
   .filter_group a {
     margin: 0px 8px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;
   }
 

@@ -431,6 +431,7 @@ margin-bottom: 12px;
         align-items: center;
         background: rgba(0, 86, 147, 0.3);
         backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
         align-items: center;
         display: flex;
         justify-content: center;
