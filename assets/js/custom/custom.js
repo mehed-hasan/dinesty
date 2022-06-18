@@ -134,23 +134,60 @@ $(".nav_search, #navbar form svg").click(function () {
       });
 
        var a = 0;
-      $("body .products_img").each(function(){
-         a+=1;
-         $(this).attr("data-pick",a);
-      });
+      // $("").each(function(){
+      //    a+=1;
+      //    $(this).attr("data-pick",a);
+      // });
 
-      $(".test").click(function(){
-        const myObject = {
-          name : "john doe",
-          age : 32,
-          gender : "male",
-          profession : "optician" 
+      const cartedData = [];
+
+      $(".product_btn").click(function(){
+
+        //Getting values 
+        var item = $(this).parent().parent();
+        var item_id = item.find(".product_info").attr("id");
+        var item_img = item.find(".products_img").attr("style");
+        var item_name = item.find(".heading_2").text();
+        var item_price = parseInt(item.find(".filter_btn_active").attr('data-price'));
+        var item_ml = item.find(".filter_btn_active").text();
+
+        //Genarating object
+        var data = {
+          product_name:item_name, 
+          product_id : item_id,
+          product_img: item_img,
+          product_price:item_price,
+          product_ml:item_ml
         }
-        
-        window.localStorage.setItem("myObject", JSON.stringify(myObject));;
 
-        let newObject = window.localStorage.getItem("myObject");
-        console.log(JSON.parse(newObject));
+       
+
+        if(cartedData.length < 1){
+          cartedData.push(data);
+        }else{
+           // If already carted 
+
+          for (let index = 0; index < cartedData.length; index++) {
+            if(cartedData[index].product_id == item_id){
+              alert(cartedData[index].product_id + " "+ item_id);
+            }else{
+              cartedData.push(data);
+            }
+          }
+
+        }
+
+        console.log(cartedData);
+ 
+
+        
+        // window.localStorage.setItem("cartedData", JSON.stringify(cartedData));;
+
+        // let localData = window.localStorage.getItem("cartedData");
+        // var array = JSON.parse(localData);
+
+        // console.log(array[0].name);
+
 });
 
 
