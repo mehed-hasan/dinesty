@@ -368,7 +368,6 @@ p{
   }
 
   .filter_group a {
-    margin-bottom: 16px;
     display: inline-flex;
     transition: .5s;
     align-items: center;
@@ -383,7 +382,6 @@ p{
 
 
   .filter_group{
-    margin-bottom: -6px !important;
     text-align: center;
     max-width: 584px;
     width: 100%;
@@ -639,7 +637,7 @@ margin-bottom: 10px;
     height: 100%;
     z-index: 9899;
     right: -100%;
-    top:82px;
+    top:73px;
     height: 100vh;
     overflow: hidden;
     transition: .8s;
@@ -693,7 +691,7 @@ color: #25306C;
   }
 
   .all_carteds{
-    max-height: calc(100% - 240px);
+    min-height: calc(100% - 240px);
     overflow: scroll;
   }
   .carted{
@@ -854,19 +852,21 @@ color: #25306C;
 
 }
 
-.checkout button{
+.button_wrapper{
+  position: relative;
+}
+
+.checkout button {
   max-width: 387px;
   width: 100%;
   border-radius: 5px;
   width: 90%;
-  left: 0;
-  bottom: 145px;
+  top: 17px;
   padding: 12px 25px;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
+  left: 51%;
+  transform: translate(-50%, -50%);
 }
-
 .modal-content .price {
   display: flex;
   justify-content: left !important;
