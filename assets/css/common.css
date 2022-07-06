@@ -677,6 +677,9 @@ margin-bottom: 10px;
 
   }
 
+  .closer_btn{
+    cursor: pointer;
+  }
   .cart_heading h3{
     font-family: 'Inter';
 font-style: normal;
