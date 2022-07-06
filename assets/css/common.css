@@ -692,7 +692,7 @@ color: #25306C;
   }
 
   .all_carteds{
-    height: 70%;
+    height: 75%;
     overflow: scroll;
   }
   
@@ -854,8 +854,10 @@ color: #25306C;
 
 }
 
-.button_wrapper{
-  position: relative;
+.button_wrapper.checkout{
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
 }
 
 .checkout button {
