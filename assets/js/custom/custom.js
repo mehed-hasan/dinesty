@@ -71,7 +71,7 @@ $(".nav_search, #navbar form svg").click(function () {
         // Cart Sliding functionalties
 
         $(".cart_btn").click(function(){
-          $(".cart_body").addClass("cart_body_active ");
+          $(".cart_body .cart_panel").addClass("cart_body_active ");
           $("body").css({'overflow':'hidden'});
 
 
@@ -79,7 +79,7 @@ $(".nav_search, #navbar form svg").click(function () {
 
    
         $(".closer, .closer_btn").click(function(){
-          $(".cart_body").removeClass("cart_body_active");
+          $(".cart_body .cart_panel").removeClass("cart_body_active");
           $("body").css({'overflow':'unset'});
         });
 
