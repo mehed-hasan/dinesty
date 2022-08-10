@@ -642,6 +642,8 @@ margin-bottom: 10px;
     overflow: hidden;
     transition: .8s;
   }
+
+
   .cart_body_active{
     right: 0 !important;
     
@@ -871,8 +873,14 @@ color: #25306C;
   top: 17px;
   padding: 12px 25px;
   position: absolute;
-  left: 51%;
-  transform: translate(-50%, -50%);
+  left: calc(2% + 50px);
+    transform: translate(0, -50%);
+}
+
+@media screen and (max-width:500px){
+  .checkout button {
+    left: 5%;
+  }
 }
 .modal-content .price {
   display: flex;

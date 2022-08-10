@@ -494,7 +494,7 @@
     }
 
     .addresses{
-        margin-top: 64px;
+        /* margin-top: 64px; */
     }
     .addresses h3{
         text-align: center;
@@ -540,6 +540,9 @@
         font-size: 14px !important;
     }
 
+    .addresses_wrapper{
+        margin-bottom: 40px;
+    }
 
 }
 
